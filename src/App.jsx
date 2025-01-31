@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/AboutUs";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/LogIn";
-import Wedquestionair from "./components/wedquestionair";
+import Wedquestionair from "./components/Wedquestionair";
 import Corpquestionair from "./components/Corpquestionair";
 
 const App = () => {
