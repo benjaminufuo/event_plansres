@@ -1,0 +1,100 @@
+.headercontainer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+}
+
+.logo {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo1 {
+  width: 100px;
+  height: 90px;
+  border-radius: 30px;
+}
+.headerlogo {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+.navbar {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+.nav {
+  width: 70%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navlist {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}
+.navitem {
+  list-style: none;
+  color: black;
+}
+
+.navitem:hover {
+  text-decoration: underline;
+  text-decoration-color: #edc947;
+}
+
+.verif {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navitemsignup {
+  list-style: none;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #edc947;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navitemsignup :hover {
+  width: 100%;
+  height: 100%;
+  background: #ed3954;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navitemlogin {
+  width: 90px;
+  height: 30px;
+  list-style: none;
+  background: #edc947;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}

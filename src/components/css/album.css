@@ -1,0 +1,56 @@
+.albumain {
+  width: 100%;
+  height: 100vh;
+  background: rgb(240, 236, 236);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.albuinput {
+  width: 50%;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  outline: none;
+}
+.albuminput::placeholder {
+  color: grey;
+}
+.albsection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.albtext1 {
+  width: 100%;
+  display: flex;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  color: darkolivegreen;
+}
+.textholder {
+  width: 25%;
+  height: 80%;
+  background-color: aqua;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+.albimage {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
