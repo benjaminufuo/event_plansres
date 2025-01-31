@@ -1,10 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
 import "../components/css/Services.css";
-import img from "../assets/wedding-background.jpg";
-import img1 from "../assets/couples-celebrating-birthday.jpg";
-import img2 from "../assets/destination-event.jpg";
-import img3 from "../assets/social-event.jpg";
 
 const Services = () => {
   return (

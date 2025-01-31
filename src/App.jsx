@@ -9,7 +9,6 @@ import SignUp from "./pages/SignUp";
 import Login from "./pages/LogIn";
 import Wedquestionair from "./components/wedquestionair";
 import Corpquestionair from "./components/Corpquestionair";
-import Album from "./components/Album";
 
 const App = () => {
   const routers = createBrowserRouter([

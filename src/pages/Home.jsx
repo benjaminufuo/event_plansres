@@ -3,11 +3,6 @@ import { NavLink } from "react-router";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../components/css/home.css";
-import bg from "../assets/decorserving-wedding-table.jpg";
-import bg1 from "../assets/weddings.jpg";
-import bg2 from "../assets/social-event.jpg";
-import bg3 from "../assets/destination-event.jpg";
-import bg4 from "../assets/group-multiethnic-creative-business-people-working-project-having-brainstorming-meeting-team-work-brainstorming-concept.jpg";
 
 const Home = () => {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import contactimg from "../assets/wedding-background.jpg";
 import "../components/css/contact.css";
 import contactlogo from "../assets/Logo.jpg";
 import { FaFacebookSquare } from "react-icons/fa";
